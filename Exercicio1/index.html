@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1 - Formulário</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <form>
+            <div class="row mb-3">
+                <div class="col-8">
+                    <label for="nome" class="form-label">Nome completo</label>
+                    <input type="text" class="form-control" id="nome" value="Fulano">
+                </div>
+                <div class="col-4">
+                    <label for="cpf" class="form-label">CPF</label>
+                    <input type="text" class="form-control" id="cpf">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="senha" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="senha">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-12 col-md-3 mb-3 mb-md-0">
+                    <label for="cep" class="form-label">CEP</label>
+                    <input type="text" class="form-control" id="cep">
+                </div>
+                <div class="col-12 col-md-9">
+                    <label for="endereco" class="form-label">Endereço</label>
+                    <input type="text" class="form-control" id="endereco" value="Avenida João Naves de Ávila">
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <label for="bairro" class="form-label">Bairro</label>
+                    <input type="text" class="form-control" id="bairro">
+                </div>
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <label for="cidade" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" id="cidade">
+                </div>
+                <div class="col-12 col-md-4">
+                    <label for="estado" class="form-label">Estado</label>
+                    <select class="form-select" id="estado">
+                        <option selected>Selecione</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="SP">São Paulo</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
